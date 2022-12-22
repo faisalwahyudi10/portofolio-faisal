@@ -398,7 +398,7 @@ h1.tag {
 }
 @keyframes js-fill {
     100%{
-        width: 50%;
+        width: 45%;
     }
 }
 
@@ -589,7 +589,15 @@ h1.tag {
       line-height: 1.1em;
       color: #32325d;
       margin-bottom: 0.2em;
-    }
+}
+
+.cards .card-item .card-intro {
+    font-size: 12px;
+    padding: 4px;
+    line-height: 1.1em;
+    color: #32325d;
+    margin-bottom: 0.2em;
+  }
   
 .cards .card-item .card-image1{
     height: 200px;
@@ -605,9 +613,8 @@ h1.tag {
 .cards .card-item .card-image :hover {
     cursor: pointer;
     transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-      
-    }
+    -webkit-transform: scale(1.1);      
+}
 
 
 
@@ -626,7 +633,7 @@ h1.tag {
     height: 200px;
     overflow: hidden;
     background-size: cover;
-    background-position: center;
+    background-position:inherit;
     background-repeat: no-repeat;
     border-radius: 6px 6px 0px 0px;
     opacity: 0.91;
