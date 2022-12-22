@@ -379,7 +379,7 @@ h1.tag {
 }
 @keyframes html-fill{
     100%{
-        width: 70%;
+        width: 65%;
     }
 }
 
@@ -407,7 +407,7 @@ h1.tag {
 }
 @keyframes nodeJs-fill{
     100%{
-        width: 40%;
+        width: 35%;
     }
 } 
 
@@ -425,7 +425,7 @@ h1.tag {
 }
 @keyframes native-fill{
     100%{
-        width: 60%;
+        width: 55%;
     }
 } 
 
@@ -434,7 +434,7 @@ h1.tag {
 }
 @keyframes sql-fill{
     100%{
-        width: 60%;
+        width: 55%;
     }
 } 
 
