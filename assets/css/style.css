@@ -379,7 +379,7 @@ h1.tag {
 }
 @keyframes html-fill{
     100%{
-        width: 80%;
+        width: 75%;
     }
 }
 
@@ -389,7 +389,7 @@ h1.tag {
 
 @keyframes css-fill{
     100%{
-        width: 70%;
+        width: 65%;
     }
 }
 
@@ -398,7 +398,7 @@ h1.tag {
 }
 @keyframes js-fill {
     100%{
-        width: 60%;
+        width: 55%;
     }
 }
 
@@ -407,7 +407,7 @@ h1.tag {
 }
 @keyframes php-fill{
     100%{
-        width: 60%;
+        width: 50%;
     }
 } 
 
@@ -425,7 +425,7 @@ h1.tag {
 }
 @keyframes laravel-fill{
     100%{
-        width: 45%;
+        width: 40%;
     }
 } 
 
