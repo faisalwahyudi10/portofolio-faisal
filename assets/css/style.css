@@ -379,7 +379,7 @@ h1.tag {
 }
 @keyframes html-fill{
     100%{
-        width: 75%;
+        width: 70%;
     }
 }
 
@@ -389,7 +389,7 @@ h1.tag {
 
 @keyframes css-fill{
     100%{
-        width: 65%;
+        width: 60%;
     }
 }
 
@@ -398,25 +398,16 @@ h1.tag {
 }
 @keyframes js-fill {
     100%{
-        width: 55%;
-    }
-}
-
-#php-bar{
-    animation: php-fill 2s forwards;
-}
-@keyframes php-fill{
-    100%{
         width: 50%;
     }
-} 
+}
 
 #nodeJs-bar{
     animation: nodeJs-fill 2s forwards;
 }
 @keyframes nodeJs-fill{
     100%{
-        width: 50%;
+        width: 40%;
     }
 } 
 
@@ -425,7 +416,34 @@ h1.tag {
 }
 @keyframes laravel-fill{
     100%{
-        width: 40%;
+        width: 30%;
+    }
+} 
+
+#native-bar{
+    animation: native-fill 2s forwards;
+}
+@keyframes native-fill{
+    100%{
+        width: 60%;
+    }
+} 
+
+#sql-bar{
+    animation: sql-fill 2s forwards;
+}
+@keyframes sql-fill{
+    100%{
+        width: 60%;
+    }
+} 
+
+#api-bar{
+    animation: api-fill 2s forwards;
+}
+@keyframes api-fill{
+    100%{
+        width: 30%;
     }
 } 
 
@@ -525,7 +543,7 @@ h1.tag {
     -ms-display: flexbox;
     -webkit-display: flex;
     padding: 0;
-    margin: 10px 0;
+    margin-bottom: 50px;
     flex-wrap: wrap;
 }
   
@@ -566,7 +584,8 @@ h1.tag {
     }
   
 .cards .card-item .card-title {
-      font-size: 25px;
+      font-size: 17px;
+      padding: 4px 0;
       line-height: 1.1em;
       color: #32325d;
       margin-bottom: 0.2em;
